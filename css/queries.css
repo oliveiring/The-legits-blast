@@ -1,0 +1,62 @@
+
+/************************/
+    /*Media Queries*/
+/************************/
+
+@media(max-width:776px){
+  body{font-size:14px;}
+
+ 
+  .main-nav{display: none;}
+
+  .menu-icon .navicon:before,
+  .menu-icon .navicon:after ,
+  .main-nav li,
+  .menu-icon .navicon,
+  .menu-icon{
+    display:block;
+  }
+ 
+
+   .quote-kleju blockquote{
+    color: #423f3f;
+    font-size: 1.1rem;
+  }
+
+  .flex-columns .column{margin-top: 1.5rem;}
+
+  
+   .flex-columns .column .videowapper{
+    position: relative;
+    overflow: hidden;
+    max-width: 100%;
+    padding-bottom: 56.26%;
+  
+  }
+
+  .flex-columns .column .videowapper iframe{
+    position: absolute;
+    width:100%;
+    height:100%;
+  }
+  
+
+  .flex-items{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+}
+
+@media(max-width:1200px){
+  .flex-columns{
+    flex-direction: column;
+    padding: 0;
+  }
+
+.section-subscribe,
+section{
+  padding:0 0.8rem;
+}
+}
